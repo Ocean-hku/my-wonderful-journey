@@ -1,0 +1,15 @@
+# 不上传的文件和文件夹
+场景图_backup/
+场景图1/
+场景图2/
+web/
+*.zip
+*.rar
+
+# 根目录的PDF（开发文档、报告等）
+/*.pdf
+
+# Python 缓存
+__pycache__/
+game/__pycache__/
+*.pyc
