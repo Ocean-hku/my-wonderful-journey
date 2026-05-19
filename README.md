@@ -1,4 +1,4 @@
-# 🌟 My Wonderful Journey（我的奇妙旅行）
+# 🌟 My Wonderful Journey
 
 > 成本不到40块？我用AI为ADHD儿童开发了一款硬核英语冒险游戏！
 
