@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#000000">
+<title>我的奇妙旅行 · Web 原型</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<canvas id="game" width="1280" height="720"></canvas>
+
+<div id="bar">
+  <span class="label">场景</span>
+  <select id="scene-select" title="跳转到指定场景"></select>
+  <span class="sep"></span>
+  <button id="btn-debug" type="button" title="显示/隐藏可点击热区（快捷键 D）">热区</button>
+  <span class="sep"></span>
+  <span id="stat">初始化…</span>
+</div>
+
+<div id="boot">资源加载中…</div>
+
+<script src="js/assets-manifest.js"></script>
+<script src="js/engine.js"></script>
+<script src="js/scenes.js"></script>
+<script>boot();</script>
+
+</body>
+</html>
